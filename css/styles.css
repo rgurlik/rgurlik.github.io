@@ -1,7 +1,66 @@
 h1{
-font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
 }
 body{
-background-color: #CECECE;
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
 text-align: center;
+}
+
+
+body {
+  font-size: 20px;
+  line-height: 22px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 85px;
+  line-height: 88px;
+  margin-top: 44px;
+  margin-bottom: 22px;
+}
+h2 {
+  font-size: 52px;
+  line-height: 66px;
+  margin-top: 44px;
+  margin-bottom: 22px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
 }
